@@ -118,7 +118,7 @@ y     = [0.19000429,6.5807428,1.4582725,...
 error_factor = 1;
 a0 = 3.18970;
 a1 = 1 ;
-a2 = 0.149020 ; 
+a2 = 0.0149020 ; 
 
 opt = a0 + a1 .* data + a2.* data.* data ;
 
@@ -128,4 +128,4 @@ plot(error_factor.*(y-opt), 'r--'); grid on;
 legend('real vals', 'opt vals', 'residuals');
 ```
 
-![image](https://user-images.githubusercontent.com/71545160/171332837-443d4e3e-0d38-4d70-8c72-4a8357abd677.png)
+![image](https://user-images.githubusercontent.com/71545160/171334344-57441d74-1d62-4ed9-956d-04986f6f22b8.png)
