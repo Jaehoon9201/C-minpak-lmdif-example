@@ -104,7 +104,7 @@ Description of Parameters
 ## Evaluation with visualization in MATLAB
 
 ```matlab
-x  = [-1.7237128,1.8712276,-0.96608055,...
+data  = [-1.7237128,1.8712276,-0.96608055,...
       -0.28394297,1.3416969,1.3757038,...
       -1.3703436,0.042581975,-0.14970151,...
        0.82065094];
@@ -120,7 +120,7 @@ a0 = 3.18970;
 a1 = 1 ;
 a2 = 0.149020 ; 
 
-opt = a0 + a1 .* x + a2.* x.* x ;
+opt = a0 + a1 .* data + a2.* data.* data ;
 
 plot(y, 'k'); hold on;
 plot(opt, 'b');
