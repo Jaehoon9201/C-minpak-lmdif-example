@@ -1,6 +1,8 @@
 # MINPACK LMDIF example in C
 **Example for MINPACK subroutine LMDIF in C language**
 
+**I'm having a compile problem related 'header include'. Include structures in my code are not perfect now**
+
 -----------------
 **[Reference1](https://www.math.utah.edu/software/minpack/minpack/lmdif1.html)**  (https://www.math.utah.edu/software/minpack/minpack/lmdif1.html)
 
