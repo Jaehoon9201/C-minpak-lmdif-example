@@ -1,4 +1,4 @@
-# MINPACK_LMDIF
+# MINPACK_LMDIF_example_in_C
 **Example for MINPACK subroutine LMDIF in C language**
 
 -----------------
