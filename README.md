@@ -131,3 +131,12 @@ legend('real vals', 'opt vals', 'residuals');
 ```
 
 ![image](https://user-images.githubusercontent.com/71545160/171334344-57441d74-1d62-4ed9-956d-04986f6f22b8.png)
+
+* Cautions
+
+```c
+int msks        = -1;
+```
+It should be modified. I finally used it as {-1, -1, -1 ,-1, -1, -1 ,-1, -1}.
+<br>
+And, **msk** should be input to **lmdif0** as 'msks' not &msks.
